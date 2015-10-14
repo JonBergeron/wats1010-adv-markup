@@ -1,1 +1,12 @@
 /* Styles for the Advanced Markup assignment. */
+aside #sidebar{
+	float: right;
+}
+
+ul.top-nav{
+	display: inline;
+}
+
+ul.poem li{
+	list-style-type: none;
+}
