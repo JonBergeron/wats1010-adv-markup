@@ -7,16 +7,6 @@ p, li{
 	font-family:"Helvetica", sans-serif;
 }
 
-ul.top-nav a, ul.bottom-nav a{
-	text-decoration: none;
-	color: black;
-}
-
-ul.top-nav a, ul.bottom-nav a:visited { 
-	text-decoration: none; 
-	color:black; 
-}
-
 h1.page-header{
 	color: white;
 	background-color: black;
@@ -50,7 +40,9 @@ ul.top-nav li, ul.bottom-nav li{
 
 ul.top-nav a, ul.bottom-nav a{
 	display: block;
-    width: 100px;	
+    width: 100px;
+	text-decoration: none;
+	color: black;
 }
 
 ul.top-nav a:hover, ul.bottom-nav a:hover{
@@ -58,8 +50,8 @@ ul.top-nav a:hover, ul.bottom-nav a:hover{
 	color: white;
 }
 
-ul.top-nav a:link, ul.bottom-nav a:link{
-	text-decoration: none;
+ul.top-nav a: visited, ul.bottom-nav a:visited { 
+	color:black; 
 }
 
 ul.poem{
