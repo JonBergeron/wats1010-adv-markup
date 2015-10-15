@@ -4,15 +4,35 @@ h1, h2, h3, h4, h5, h6{
 }
 
 p, li{
-	font-family:"Helvetica", sans serif;
+	font-family:"Helvetica", sans-serif;
 }
 
-aside #sidebar{
-	float: right;
+a:visited { 
+	text-decoration: none; 
+	color:black; 
+}
+
+h1.page-header{
+	color: white;
+	background-color: black;
+	margin: 0 0 0 0;
+}
+
+h2.subheading{
+	font-family:"Helvetica", sans-serif;
+	color: white;
+	background-color: black;
+	padding: 0 0 0 20px;
+	margin: 0 0 0 0;
+}
+
+div#nav-content{
+	float: left;
+	margin-left: 20px;
 }
 
 ul.top-nav{
-	padding: 1px 0 20px 0;
+	padding: 20px 0 50px 0;
 
 }
 
@@ -37,9 +57,60 @@ ul.top-nav a:link{
 	text-decoration: none;
 }
 
+ul.poem{
+	padding: 25px 0 50px 0;
+}
+
 ul.poem li{
 	list-style-type: none;
-	
+	width: 400px;
+	font-size: 16px;
+	padding: 5px 0 5px 0;
+}
+
+ul.poem li:first-child:first-letter { 
+	float: left; 
+	color: black; 
+	font-size: 75px; 
+	line-height: 60px; 
+	padding-top: 4px; 
+	padding-right: 8px; 
+	padding-left: 3px; 
+	font-family: "Helvetica"; 
+}
+
+div#share-aside{
+	float: right;
+	width: 375px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+h2.share-header{
+	margin: 0 0 -15px 0;
+}
+
+ul.share-links{
+	padding: 0 50px 0 0;
+}
+
+ul.share-links li{
+	display:inline;
+	float: left;
+	list-style-type: none;
+	padding: 0 6px 0 5px;
+}
+
+aside#sidebar{
+	float: right;
+	padding: 0 15px 0 20px;
+	margin: 0 50px 0 0;
+	border-style: double;
+	border-color: black;
+}
+
+footer{
+	clear: both;
 }
 
 ul.bottom-nav{
