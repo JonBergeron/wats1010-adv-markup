@@ -1,4 +1,4 @@
-/* Styles for the Advanced Markup assignment. */
+/* Global markup */
 h1, h2, h3, h4, h5, h6{
 	font-family: "Georgia", serif;
 }
@@ -24,11 +24,16 @@ h2.subheading{
 div#nav-content{
 	float: left;
 	margin-left: 20px;
+	width: 400px;
 }
 
-ul.top-nav, ul.bottom-nav{
+ul.top-nav{
 	padding: 20px 0 50px 0;
 
+}
+
+ul.bottom-nav{
+	padding: 20px 0 80px 0;
 }
 
 ul.top-nav li, ul.bottom-nav li{
@@ -54,6 +59,48 @@ ul.top-nav a: visited, ul.bottom-nav a:visited {
 	color:black; 
 }
 
+div#share-aside{
+	float: right;
+	width: 375px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+h2.share-header{
+	margin: 0 0 -15px 0;
+	padding: 0 0 0 25px;
+}
+
+ul.share-links{
+	padding: 0 50px 0 0;
+}
+
+ul.share-links li{
+	display:inline;
+	float: left;
+	list-style-type: none;
+	padding: 0 6px 0 5px;
+}
+
+aside#sidebar{
+	float: right;
+	padding: 0 15px 0 20px;
+	margin: 50px 50px 0 0;
+	border-style: double;
+	border-color: black;
+}
+
+footer{
+	clear: both;
+}
+
+p.smalltext {
+	font-size: small;
+}
+
+
+/* index.html specific markup */
+
 ul.poem{
 	padding: 25px 0 50px 0;
 }
@@ -76,36 +123,43 @@ ul.poem li:first-child:first-letter {
 	font-family: "Helvetica"; 
 }
 
-div#share-aside{
-	float: right;
-	width: 375px;
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
-}
+/* about-poe.html specific markup */
 
-h2.share-header{
-	margin: 0 0 -15px 0;
-}
-
-ul.share-links{
-	padding: 0 50px 0 0;
-}
-
-ul.share-links li{
-	display:inline;
+p.bio-photo{
 	float: left;
+	text-align: center;
+  	font-style: italic;
+  	font-size: smaller;
+  	text-indent: 0;
+	margin: -15px 0 20px 0;
+}
+
+dl.eap-bio{
+	width: 285px;
+}
+
+dl.eap-bio dt{
+	font-family: "Helvetica", sans-serif;
+	font-weight: bold;
+	text-align: left;
+}
+
+dl.eap-bio dd{
+	font-family: "Georgia", serif;
+	font-weight: italic;
+	text-align: center;
+}
+div#selected-works-group{
+	float: left;
+}
+
+ol.bibliography li:before{
+	content:"[" counter(section, decimal) "]";
+}
+
+ol.bibliography li{ 
+	counter-increment: section;
+	font-size: small;
 	list-style-type: none;
-	padding: 0 6px 0 5px;
 }
-
-aside#sidebar{
-	float: right;
-	padding: 0 15px 0 20px;
-	margin: 0 50px 0 0;
-	border-style: double;
-	border-color: black;
-}
-
-footer{
-	clear: both;
-}
+ 

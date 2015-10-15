@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Sonnet: to Science</h1>
+	<header>
+		<h1 class="page-header">Thy Peering Eyes</h1>
+		<h2 class="subheading">An analysis on Poe and Sonnet: to Science</h2>
+	</header>
+	<div id="container">
+		<div id="nav-content">
         <nav><!-- TODO: Link pages properly -->
             <ul class="top-nav"><!-- TODO: Make this list be a horizontal navigation -->
                 <li><a href="index.html">Home</a></li>
@@ -17,38 +21,6 @@
                 <li><a href="interpretation.html">Interpretation</a></li>
             </ul>
         </nav>
-		<div id="share-group">
-        <h2>Share This!</h2>
-        <ul class="share-links">
-            <li>
-				<a class="twitter" href="http://twitter.com" target="blank">
-					<img src="twitter-icon-black-and-white.png" width="50" height="50" alt="Twitter">
-				</a>
-			</li>
-            <li><a class="facebook" href="http://facebook.com" target="blank">
-					<img src="facebook-icon-black-and-white.gif" width="55" height="55" alt="Facebook">
-				</a>
-			</li>
-            <li><a class="pinterest" href="http://pinterest.com" target="blank">
-					<img src="pinterest-icon-black-and-white.png" width="55" height="55" alt="Pinterest">
-				</a>
-			</li>
-        </ul>
-		</div>
-    </header>
-    <aside id="sidebar"><!-- TODO: Make sidebar float right. -->
-        <h2>Bio Stats</h2>
-        <!-- TODO: Use a definition list to format the information below -->
-        Born:
-            January 19, 1809
-        Died:
-            October 7, 1849
-        Alma Mater:
-            University of Virginia
-        Spouse:
-            Virginia Eliza Clemm Poe
-    </aside>
-    <section id="content">
         <!-- TODO: In this section fill in formatting markup as needed. Link the
         numbers in brackets to the proper citation in the footer of the page
         using in-page anchors (aka bookmark links). -->
@@ -68,19 +40,48 @@
 
         <p>Poe and his works influenced literature in the United States and around the world, as well as in specialized fields, such as cosmology and cryptography. Poe and his work appear throughout popular culture in literature, music, films, and television. A number of his homes are dedicated museums today. The Mystery Writers of America present an annual award known as the Edgar Award for distinguished work in the mystery genre.</p>
 
-        <p class="smalltext">
-            The content of this biographical summary is used under the
-            <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">
-                Creative Commons Attribution-ShareAlike License</a>
-            from <a href="http://en.wikipedia.org/wiki/Edgar_Allan_Poe">
-                the Wikipedia entry for Edgar Allan Poe</a>.
         </p>
-        <h2>Selected Works</h2>
+		</div>
+		<div id="share-aside">
+        <h2 class="share-header">Share This!</h2>
+        <ul class="share-links">
+            <li>
+				<a class="twitter" href="http://twitter.com" target="blank">
+					<img src="twitter-icon-black-and-white.png" width="50" height="50" alt="Twitter">
+				</a>
+			</li>
+            <li><a class="facebook" href="http://facebook.com" target="blank">
+					<img src="facebook-icon-black-and-white.gif" width="55" height="55" alt="Facebook">
+				</a>
+			</li>
+            <li><a class="pinterest" href="http://pinterest.com" target="blank">
+					<img src="pinterest-icon-black-and-white.png" width="55" height="55" alt="Pinterest">
+				</a>
+			</li>
+        </ul>
+    <aside id="sidebar"><!-- TODO: Make sidebar float right. -->
+        <h2>Bio &amp; Stats</h2>
+        <!-- TODO: Use a definition list to format the information below -->
+        <dl class="eap-bio">
+			<dt>Born:</dt>
+			<dd>January 19, 1809</dd>
+			<dt>Died:</dt>
+			<dd>October 7, 1849</dd>
+			<dt>Alma Mater:</dt>
+           <dd> University of Virginia</dd>
+			<dt>Spouse:</dt>
+			<dd>Virginia Eliza Clemm Poe</dd>
+		</dl>
+    </aside>
+		<div id="selected-works-group">
+		<h2 class="selected-header">Selected Works</h2>
         <table id="selected_works">
             <!-- TODO: Create an accessible <table> structure here representing the
             the provided table of information in poe_selected_works.pdf. -->
         </table>
-    </section>
+			</div>
+			</div>
+	</div>
     <footer>
         <nav><!-- TODO: Link pages properly -->
             <ul class="bottom-nav"><!-- TODO: Make this list be a horizontal navigation -->
@@ -89,14 +90,20 @@
                 <li><a href="interpretation.html">Interpretation</a></li>
             </ul>
         </nav>
-        <p>&copy;2015 Jane Student</p>
+        <p>&copy;2015 Jonathan Bergeron</p>
         <p class="smalltext">
-            <ul class="bibliography">
+            <ol class="bibliography">
                 <li id="citation-1"><a href="http://en.wikipedia.org/wiki/Edgar_Allan_Poe#CITEREFStableford2003">Stableford 2003</a>, pp. 18–19</li>
                 <li id="citation-2"><a href="http://en.wikipedia.org/wiki/Edgar_Allan_Poe#CITEREFMeyers1992">Meyers 1992</a>, p. 138</li>
                 <li id="citation-3"><a href="http://en.wikipedia.org/wiki/Edgar_Allan_Poe#CITEREFMeyers1992">Meyers 1992</a>, p. 256</li>
-            </ul>
+            </ol>
         </p>
+	        <p class="smalltext">
+            The content of this biographical summary is used under the
+            <a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">
+                Creative Commons Attribution-ShareAlike License</a>
+            from <a href="http://en.wikipedia.org/wiki/Edgar_Allan_Poe">
+                the Wikipedia entry for Edgar Allan Poe</a>.
     </footer>
 </body>
 </html>
