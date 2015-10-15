@@ -1,12 +1,50 @@
 /* Styles for the Advanced Markup assignment. */
+h1, h2, h3, h4, h5, h6{
+	font-family: "Georgia", serif;
+}
+
+p, li{
+	font-family:"Helvetica", sans serif;
+}
+
 aside #sidebar{
 	float: right;
 }
 
 ul.top-nav{
+	padding: 1px 0 20px 0;
+
+}
+
+ul.top-nav li{
 	display: inline;
+	float: left;
+	border-style: solid;
+	text-align: center;
+}
+
+ul.top-nav a{
+	display: block;
+    width: 100px;	
 }
 
 ul.poem li{
 	list-style-type: none;
+	
+}
+
+ul.bottom-nav{
+	padding: 1px 0 20px 0;
+}
+
+ul.bottom-nav li{
+	display: inline;
+	float: left;
+	border-style: solid;
+	text-align: center;
+}
+
+ul.bottom-nav a{
+	display: block;
+	width: 100px;
 }
