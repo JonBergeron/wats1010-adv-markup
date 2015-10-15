@@ -28,6 +28,15 @@ ul.top-nav a{
     width: 100px;	
 }
 
+ul.top-nav a:hover{
+	background-color: black;
+	color: white;
+}
+
+ul.top-nav a:link{
+	text-decoration: none;
+}
+
 ul.poem li{
 	list-style-type: none;
 	
@@ -47,4 +56,13 @@ ul.bottom-nav li{
 ul.bottom-nav a{
 	display: block;
 	width: 100px;
+}
+
+ul.bottom-nav a:hover{
+	background-color: black;
+	color: white;
+}
+
+ul.bottom-nav a:link{
+	text-decoration: none;
 }
