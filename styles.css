@@ -7,12 +7,12 @@ p, li{
 	font-family:"Helvetica", sans-serif;
 }
 
-a{
+ul.top-nav a, ul.bottom-nav a{
 	text-decoration: none;
 	color: black;
 }
 
-a:visited { 
+ul.top-nav a, ul.bottom-nav a:visited { 
 	text-decoration: none; 
 	color:black; 
 }
@@ -36,29 +36,29 @@ div#nav-content{
 	margin-left: 20px;
 }
 
-ul.top-nav{
+ul.top-nav, ul.bottom-nav{
 	padding: 20px 0 50px 0;
 
 }
 
-ul.top-nav li{
+ul.top-nav li, ul.bottom-nav li{
 	display: inline;
 	float: left;
 	border-style: solid;
 	text-align: center;
 }
 
-ul.top-nav a{
+ul.top-nav a, ul.bottom-nav a{
 	display: block;
     width: 100px;	
 }
 
-ul.top-nav a:hover{
+ul.top-nav a:hover, ul.bottom-nav a:hover{
 	background-color: black;
 	color: white;
 }
 
-ul.top-nav a:link{
+ul.top-nav a:link, ul.bottom-nav a:link{
 	text-decoration: none;
 }
 
@@ -116,29 +116,4 @@ aside#sidebar{
 
 footer{
 	clear: both;
-}
-
-ul.bottom-nav{
-	padding: 1px 0 20px 0;
-}
-
-ul.bottom-nav li{
-	display: inline;
-	float: left;
-	border-style: solid;
-	text-align: center;
-}
-
-ul.bottom-nav a{
-	display: block;
-	width: 100px;
-}
-
-ul.bottom-nav a:hover{
-	background-color: black;
-	color: white;
-}
-
-ul.bottom-nav a:link{
-	text-decoration: none;
 }
