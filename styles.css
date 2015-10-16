@@ -33,7 +33,8 @@ ul.top-nav{
 }
 
 ul.bottom-nav{
-	padding: 20px 0 80px 0;
+	padding: 20px 0 30px 0;
+	margin-left: 20px
 }
 
 ul.top-nav li, ul.bottom-nav li{
@@ -60,7 +61,7 @@ ul.top-nav a: visited, ul.bottom-nav a:visited {
 }
 
 div#share-aside{
-	float: right;
+	float: left;
 	width: 375px;
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
@@ -79,7 +80,7 @@ ul.share-links li{
 	display:inline;
 	float: left;
 	list-style-type: none;
-	padding: 0 6px 0 5px;
+	padding: 0 3px 0 3px;
 }
 
 aside#sidebar{
@@ -132,25 +133,56 @@ p.bio-photo{
   	font-size: smaller;
   	text-indent: 0;
 	margin: -15px 0 20px 0;
+	width: 250px;
 }
 
-dl.eap-bio{
+div#poe-bio-text-top{
+	float:left;
+	width:350px;
+}
+
+dl.poe-bio-details{
 	width: 285px;
 }
 
-dl.eap-bio dt{
+dl.poe-bio-details dt{
 	font-family: "Helvetica", sans-serif;
 	font-weight: bold;
 	text-align: left;
 }
 
-dl.eap-bio dd{
+dl.poe-bio-details dd{
 	font-family: "Georgia", serif;
-	font-weight: italic;
+	font-style: italic;
 	text-align: center;
 }
 div#selected-works-group{
 	float: left;
+}
+
+table#selected_works{
+	float:left;
+	border-style: double;
+	font-size: 16px;
+	width: 325px;
+	border-collapse: collapse;
+}
+
+table#selected_works tr, th, td{
+	border: 1px solid black;
+}
+
+table#selected_works td{
+	padding-left: 3px
+}
+
+table#selected_works th{
+	padding-right: 2px;
+}
+
+div#poe-bio-text-bottom{
+	width: 745px;
+	margin-left: 20px;
 }
 
 ol.bibliography li:before{
@@ -162,4 +194,3 @@ ol.bibliography li{
 	font-size: small;
 	list-style-type: none;
 }
- 
