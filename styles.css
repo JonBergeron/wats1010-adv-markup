@@ -69,7 +69,7 @@ div#share-aside{
 
 h2.share-header{
 	margin: 0 0 -15px 0;
-	padding: 0 0 0 25px;
+	padding: 0 0 0 16px;
 }
 
 ul.share-links{
@@ -84,7 +84,7 @@ ul.share-links li{
 }
 
 aside#sidebar{
-	float: right;
+	float: left;
 	padding: 0 15px 0 20px;
 	margin: 50px 50px 0 0;
 	border-style: double;
@@ -142,7 +142,7 @@ div#poe-bio-text-top{
 }
 
 dl.poe-bio-details{
-	width: 285px;
+	width: 284px;
 }
 
 dl.poe-bio-details dt{
@@ -180,7 +180,7 @@ table#selected_works th{
 	padding-right: 2px;
 }
 
-div#poe-bio-text-bottom{
+div#bio-text-bottom{
 	width: 745px;
 	margin-left: 20px;
 }
@@ -193,4 +193,27 @@ ol.bibliography li{
 	counter-increment: section;
 	font-size: small;
 	list-style-type: none;
+}
+
+/* interpretation styles */
+
+aside#sidebar-interpretation{
+	float: left;
+	padding: 0 15px 0 20px;
+	margin: 50px 50px 0 0;
+	border-style: double;
+	border-color: black;
+}
+
+div#content-text-bottom{
+	width: 745px;
+	margin-left: 20px;
+}
+
+section#content h2{
+	margin-bottom: -10px;
+}
+
+section#content p{
+	margin-right: 10px
 }
