@@ -69,7 +69,7 @@ div#share-aside{
 
 h2.share-header{
 	margin: 0 0 -15px 0;
-	padding: 0 0 0 16px;
+	padding: 0 0 0 47px;
 }
 
 ul.share-links{
@@ -196,14 +196,6 @@ ol.bibliography li{
 }
 
 /* interpretation styles */
-
-aside#sidebar-interpretation{
-	float: left;
-	padding: 0 15px 0 20px;
-	margin: 50px 50px 0 0;
-	border-style: double;
-	border-color: black;
-}
 
 div#content-text-bottom{
 	width: 745px;
