@@ -7,7 +7,7 @@ p, li{
 	font-family:"Helvetica", sans-serif;
 }
 
-h1.page-header{
+h1.heading{
 	color: white;
 	background-color: black;
 	margin: 0 0 0 0;
@@ -21,46 +21,46 @@ h2.subheading{
 	margin: 0 0 0 0;
 }
 
-div#nav-content{
+div#container-nav-content{
 	float: left;
 	margin-left: 20px;
 	width: 400px;
 }
 
-ul.top-nav{
+ul.nav-site{
 	padding: 20px 0 50px 0;
 
 }
 
-ul.bottom-nav{
-	padding: 20px 0 30px 0;
-	margin-left: 20px
-}
-
-ul.top-nav li, ul.bottom-nav li{
+ul.nav-site li{
 	display: inline;
 	float: left;
 	border-style: solid;
 	text-align: center;
 }
 
-ul.top-nav a, ul.bottom-nav a{
+ul.nav-site a {
 	display: block;
     width: 100px;
 	text-decoration: none;
 	color: black;
 }
 
-ul.top-nav a:hover, ul.bottom-nav a:hover{
+ul.nav-site a:hover {
 	background-color: black;
 	color: white;
 }
 
-ul.top-nav a: visited, ul.bottom-nav a:visited { 
+ul.nav-site a:visited { 
 	color:black; 
 }
 
-div#share-aside{
+ul.nav-site a:visited:hover {
+	background-color: black;
+	color: white;
+}
+
+div#container-share-aside{
 	float: left;
 	width: 375px;
 	padding: 0 0 0 0;
@@ -69,11 +69,11 @@ div#share-aside{
 
 h2.share-header{
 	margin: 0 0 -15px 0;
-	padding: 0 0 0 47px;
+	padding: 0 0 0 95px;
 }
 
 ul.share-links{
-	padding: 0 50px 0 0;
+	padding: 0 50px 0 45px;
 }
 
 ul.share-links li{
@@ -83,7 +83,7 @@ ul.share-links li{
 	padding: 0 3px 0 3px;
 }
 
-aside#sidebar{
+aside#aside-sidebar{
 	float: left;
 	padding: 0 15px 0 20px;
 	margin: 50px 50px 0 0;
@@ -102,18 +102,18 @@ p.smalltext {
 
 /* index.html specific markup */
 
-ul.poem{
+ul.content-poem{
 	padding: 25px 0 50px 0;
 }
 
-ul.poem li{
+ul.content-poem li{
 	list-style-type: none;
 	width: 400px;
 	font-size: 16px;
 	padding: 5px 0 5px 0;
 }
 
-ul.poem li:first-child:first-letter { 
+ul.content-poem li:first-child:first-letter { 
 	float: left; 
 	color: black; 
 	font-size: 75px; 
@@ -126,7 +126,7 @@ ul.poem li:first-child:first-letter {
 
 /* about-poe.html specific markup */
 
-p.bio-photo{
+p.content-photo{
 	float: left;
 	text-align: center;
   	font-style: italic;
@@ -136,31 +136,31 @@ p.bio-photo{
 	width: 250px;
 }
 
-div#poe-bio-text-top{
+div#content-bio{
 	float:left;
 	width:350px;
 }
 
-dl.poe-bio-details{
+dl.aside-sidebar-details{
 	width: 284px;
 }
 
-dl.poe-bio-details dt{
+dl.aside-sidebar-details dt{
 	font-family: "Helvetica", sans-serif;
 	font-weight: bold;
 	text-align: left;
 }
 
-dl.poe-bio-details dd{
+dl.aside-sidebar-details dd{
 	font-family: "Georgia", serif;
 	font-style: italic;
 	text-align: center;
 }
-div#selected-works-group{
+div#aside-sidebar-works{
 	float: left;
 }
 
-table#selected_works{
+table#aside-sidebar-works-table{
 	float:left;
 	border-style: double;
 	font-size: 16px;
@@ -168,19 +168,28 @@ table#selected_works{
 	border-collapse: collapse;
 }
 
-table#selected_works tr, th, td{
+table#aside-sidebar-works-table tr, th, td{
 	border: 1px solid black;
 }
 
-table#selected_works td{
+table#aside-sidebar-works-table td{
 	padding-left: 3px
 }
 
-table#selected_works th{
+table#aside-sidebar-works-table th{
 	padding-right: 2px;
 }
 
-div#bio-text-bottom{
+caption{
+	padding: 10px 0 10px 24px;
+	font-family: "Georgia", serif;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: black;
+}
+
+div#continued-bio{
 	width: 745px;
 	margin-left: 20px;
 }
@@ -195,17 +204,17 @@ ol.bibliography li{
 	list-style-type: none;
 }
 
-/* interpretation styles */
+/* interpretation.html specific styles */
 
-div#content-text-bottom{
-	width: 745px;
-	margin-left: 20px;
-}
-
-section#content h2{
+section#content-interpretation h2{
 	margin-bottom: -10px;
 }
 
-section#content p{
+section#content-interpretation p{
 	margin-right: 10px
+}
+
+div#continued-interpretation {
+	width: 745px;
+	margin-left: 20px;
 }
